@@ -70,7 +70,7 @@ $ sudo apt-get install p7zip-full
 ```
 ![](../images/devenv/15.png)
 
-#### 3、从`共享资源`中下载`mydes_gcc8.4.0.7z`并上传到linux
+#### 3、从`共享资源`中下载`mydeps_gcc8.4.0.7z`并上传到linux
 
 * 如果是通过terminal工具连接的话，推荐使用WindTerm上传
 
@@ -83,12 +83,12 @@ $ sudo apt-get install p7zip-full
 
 * 或者直接使用scp命令行上传
 ```shell
-$ scp -r mydes_gcc8.4.0.7z root@192.168.61.128:/home
+$ scp -r mydeps_gcc8.4.0.7z root@192.168.61.128:/home
 ```
 
-#### 4、将`mydes_gcc8.4.0.7z`解压到`/home`下
+#### 4、将`mydeps_gcc8.4.0.7z`解压到`/home`下
 ```shell
-$ sudo 7za x mydes_gcc8.4.0.7z /home
+$ sudo 7za x mydeps_gcc8.4.0.7z /home
 ```
 
 #### 5、拉取`WonderTrader`的源码
